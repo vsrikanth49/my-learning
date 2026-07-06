@@ -1,0 +1,43 @@
+.bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    gap: 20;
+
+}
+.p-bar {
+height: 20px;
+background-color: #f3f3f3;
+border-radius: 5px;
+overflow: hidden;
+width: 40%;
+}
+.p-bar-green {
+    color: green;
+    background-color: green;
+}
+.p-bar-orange {
+    color: orange;
+    background-color: orange;
+}
+.p-bar-red {
+    color: red;
+     background-color: red;
+}
+.p-bar span {
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+.button-align {
+    display: flex;
+    flex-direction: row;
+    gap: 20;
+}
+
+.button-align button {
+    border: 1px solid #ccc;
+    width:50px;
+    border-radius: 5px;
+}
