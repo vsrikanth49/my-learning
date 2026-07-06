@@ -17,7 +17,7 @@ const Progress = () => {
       <h1>Welcome to progress bar</h1>
       <div className={`p-bar`} style={{height:"25px",backgroundColor:"#ddd", overflow:"hidden"}} >
       <div style={{width:`${percentage}%`}} className={`${getcolor()}` }>
-        <span style={{  left:"50", position:"absolute"}}>{percentage}%</span>
+        <span>{percentage}%</span>
       </div>
       </div>
       <div  className="button-align">
